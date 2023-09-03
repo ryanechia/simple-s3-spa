@@ -31,6 +31,8 @@ h3 {
   margin-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  height: 100%
+;
 }
 
 .banner {
