@@ -6,11 +6,11 @@ defineProps<{
 
 <template>
   <div class="greetings">
+    <img class="banner" src="~@/assets/daniel head shot.jpg">
     <h1 class="green">{{ msg }}</h1>
+    <h1 class="green">for Melville Council</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+       I love the community I live in and want to help make Melville a better place.
     </h3>
   </div>
 </template>
@@ -25,6 +25,19 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+}
+
+.greetings {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  max-width: 100%;
+  max-height: 400px;
+  margin-bottom: 2rem;
+  align-self: center;
 }
 
 .greetings h1,
