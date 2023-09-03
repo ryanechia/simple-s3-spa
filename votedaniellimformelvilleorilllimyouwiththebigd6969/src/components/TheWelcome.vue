@@ -7,13 +7,16 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
+
   <div class="linked-list">
+    <h1>Daniel's Priorities</h1>
+
     <WelcomeItem>
       <template #icon>
         <DocumentationIcon/>
       </template>
       <template #heading>Rates</template>
-      Rate rises below inflation
+      Keeping council rate rises below inflation
     </WelcomeItem>
 
     <WelcomeItem>
