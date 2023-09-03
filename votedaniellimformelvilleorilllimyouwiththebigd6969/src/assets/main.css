@@ -15,6 +15,10 @@ a,
   transition: 0.4s;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
@@ -32,5 +36,11 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
     min-height: 100vh;
+  }
+
+  .page-container {
+    display: flex;
+    margin-top: 5.5rem;
+    flex-direction: column;
   }
 }

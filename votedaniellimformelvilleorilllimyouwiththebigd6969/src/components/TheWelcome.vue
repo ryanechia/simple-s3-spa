@@ -53,7 +53,6 @@ import SupportIcon from './icons/IconSupport.vue'
   display: flex;
   flex-direction: column;
   height: 100%;
-  justify-content: center; /* align item horizontally */
 }
 
 </style>

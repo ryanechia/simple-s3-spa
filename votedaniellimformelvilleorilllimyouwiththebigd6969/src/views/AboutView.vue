@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div class="page-container">
     <div class="textBlock">
       <h1>Background</h1>
       <div>
@@ -24,11 +24,6 @@
 
 <style>
 @media (min-width: 1024px) {
-  .about {
-    display: flex;
-    margin-top: 5.5rem;
-    flex-direction: column;
-  }
 
   .textBlock {
     margin-bottom: 1rem;
