@@ -7,8 +7,8 @@ defineProps<{
 <template>
   <div class="greetings">
     <img class="banner" src="/daniel-head-shot.jpg">
-    <h1 class="green">{{ msg }}</h1>
-    <h1 class="green">for Melville Council</h1>
+    <h1 class="blue">{{ msg }}</h1>
+    <h1 class="blue">for Melville Council</h1>
     <h3>
        I love the community I live in and want to help make Melville a better place.
     </h3>

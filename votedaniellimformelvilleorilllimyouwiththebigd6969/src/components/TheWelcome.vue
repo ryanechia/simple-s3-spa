@@ -31,7 +31,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <h2>Vote 1, Daniel Lim.</h2>
     </div>
     <div class="linked-list">
-      <h1>Daniel's Priorities</h1>
+      <h1 class="blue">Daniel's Priorities</h1>
 
       <WelcomeItem>
         <template #icon>
