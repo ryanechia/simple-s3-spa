@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import MugShot from './components/MugShot.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">Learn About Daniel</RouterLink>
       </nav>
-      <HelloWorld msg="Daniel Lim" />
+      <MugShot msg="Daniel Lim" />
     </div>
   </header>
 
