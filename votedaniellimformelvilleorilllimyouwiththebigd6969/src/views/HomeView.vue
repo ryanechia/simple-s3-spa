@@ -63,7 +63,7 @@ import SupportIcon from '../assets/icons/IconSupport.vue'
         </template>
         <template #heading>Support Daniel</template>
         As an independent candidate, Daniel relies on community backing. You can help show your support by
-        <a href="https://www.facebook.com/DanielLimCityofMelville" target="_blank" rel="noopener">liking his facebook
+        <a href="https://www.facebook.com/DanielLimCityofMelville" target="_blank" rel="noopener">following his facebook
           page</a>.
       </WelcomeItem>
     </div>
